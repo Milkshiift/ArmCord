@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f73504d2-c456-4979-84ac-550e2ec74ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/client/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/winState.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_black_plug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_black_plug_hollow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_icon_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_plug_colored.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_white_plug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ac_white_plug_hollow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/clsc-dsc-tray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dsc-tray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/cs-CZ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/en-US.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/es-419.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/fa-IR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/fr-FR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/hu-HU.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/id-ID.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/it-IT.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/ja-JP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/ko-KR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/nb-NO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/nl-NL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/pl-PL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/pt-BR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/ru-RU.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/sv-SE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/th-TH.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/tr-TR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/lang/zh-Hans.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/macos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/screenshot-1920x1080.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/examples/bridge_mod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/examples/electron/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/examples/electron/preload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/process/detectable.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/process/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/process/native/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/process/native/win32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/transports/ipc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrpc/src/transports/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/discord.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/fonts/whitney_400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/logos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/screenshare.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/settingsEng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/setup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/splash.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/css/titlebar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/js/disableAutogain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/js/rpc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/setup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/splash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/mods.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/extensions/plugin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ipc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/bridge.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/capturer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/mobile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/patch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/preload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preload/titlebar.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screenshare/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screenshare/picker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screenshare/preload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/preload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings/settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/window.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LdXAvo5VvpoKTyDL23MySXUUoR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/smart/Projects/ArmCord&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/smart/Projects/ArmCord/node_modules/prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/smart/Projects/ArmCord/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f73504d2-c456-4979-84ac-550e2ec74ed5" name="Changes" comment="" />
+      <created>1676201794025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676201794025</updated>
+      <workItem from="1676201795505" duration="16276000" />
+      <workItem from="1677259010569" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,3 +1,4 @@
+# This is next major rewrite of ArmCord, WIP
 
 <div align="center">
 <img src="https://armcord.xyz/logo.png" width="520">
