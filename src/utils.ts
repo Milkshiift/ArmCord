@@ -52,6 +52,7 @@ export function setup() {
         startMinimized: false,
         dynamicIcon: false,
         disableAutogain: false,
+        autoStart: true,
         useLegacyCapturer: false,
         mobileMode: false,
         trayIcon: "default",
@@ -250,6 +251,7 @@ export interface Settings {
     useLegacyCapturer: boolean;
     inviteWebsocket: boolean;
     disableAutogain: boolean;
+    autoStart: boolean;
     trayIcon: string;
     doneSetup: boolean;
 }

@@ -1,6 +1,6 @@
 {
     "name": "ArmCord",
-    "version": "3.2.0",
+    "version": "3.1.5",
     "description": "ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.",
     "main": "ts-out/main.js",
     "scripts": {
@@ -39,6 +39,7 @@
         "arrpc": "file:src/arrpc",
         "cross-fetch": "^3.1.5",
         "electron-context-menu": "github:ArmCord/electron-context-menu",
+        "electron-winstore-auto-launch": "^2.0.6",
         "extract-zip": "^2.0.1",
         "v8-compile-cache": "^2.3.0",
         "ws": "^8.11.0"
@@ -70,6 +71,12 @@
                 "rpm",
                 "AppImage"
             ]
+        },
+        "appx": {
+            "identityName": "53758smartfrigde.ArmCord",
+            "publisher": "CN=EAB3A6D3-7145-4623-8176-D579F573F339",
+            "publisherDisplayName": "smartfrigde",
+            "applicationId": "smartfrigde.ArmCord"
         }
     },
     "packageManager": "pnpm@7.13.4"

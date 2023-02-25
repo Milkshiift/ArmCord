@@ -11,7 +11,7 @@ import {
 } from "./utils";
 import "./extensions/mods";
 import "./tray";
-import fs from "fs";
+import {WindowsStoreAutoLaunch} from "electron-winstore-auto-launch";
 import {createCustomWindow, createNativeWindow, createTransparentWindow, mainWindow} from "./window";
 import path from "path";
 export var iconPath: string;
@@ -40,11 +40,15 @@ if (!app.requestSingleInstanceLock()) {
             }
         }
     }
-
     checkForDataFolder();
     checkIfConfigExists();
     injectElectronFlags();
     app.whenReady().then(async () => {
+        if ((await getConfig("autoStart")) == true) {
+            WindowsStoreAutoLaunch.enable();
+        } else {
+            WindowsStoreAutoLaunch.disable();
+        }
         if ((await getConfig("customIcon")) !== undefined ?? null) {
             iconPath = await getConfig("customIcon");
         } else {
