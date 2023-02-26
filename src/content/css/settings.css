@@ -66,6 +66,13 @@ body::-webkit-scrollbar-thumb {
 .left {
     float: right;
 }
+.previewimage {
+    height: auto;
+    width: 540px;
+}
+.acTransparencyMode {
+    z-index: 999;
+}
 p {
     pointer-events: none;
     user-select: none;

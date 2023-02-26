@@ -39,7 +39,21 @@
             </div>
         </div>
         <br />
+        <div class="switch acTransparencyMode">
+            <select name="transparencyMode" data-setting="transparencyMode" class="left dropdown">
+                <option value="acrylic" data-string="settings-transparencyMode-acrylic"></option>
+                <option value="mica" data-string="settings-transparencyMode-mica"></option>
+                <option value="unified-acrylic" data-string="settings-transparencyMode-unifiedAcrylic"></option>
+                <option value="blurbehind" data-string="settings-transparencyMode-blurbehind"></option>
+            </select>
 
+            <p class="header" data-string="settings-transparencyMode"></p>
+
+            <div class="description">
+                <img class="previewimage" src="https://armcord.xyz/preview.gif" />
+            </div>
+        </div>
+        <br />
         <div class="switch acCSP">
             <label class="header">ArmCord CSP</label>
             <input id="csp" class="tgl tgl-light left" data-setting="armcordCSP" type="checkbox" />

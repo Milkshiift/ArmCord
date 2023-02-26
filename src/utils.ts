@@ -46,6 +46,7 @@ export function setup() {
         automaticPatches: false,
         alternativePaste: false,
         mods: "none",
+        transparencyMode: "acrylic",
         performanceMode: "none",
         skipSplash: false,
         inviteWebsocket: true,
@@ -241,6 +242,7 @@ export interface Settings {
     armcordCSP: boolean;
     minimizeToTray: boolean;
     automaticPatches: boolean;
+    transparencyMode: string;
     alternativePaste: boolean;
     mods: string;
     dynamicIcon: boolean;
