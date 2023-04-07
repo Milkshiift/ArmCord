@@ -123,7 +123,6 @@ SOFTWARE.*/
             img.logo {
                 width: 272px;
             }
-
         </style>
         <script>
             window.onbeforeunload = function () {
@@ -146,21 +145,35 @@ SOFTWARE.*/
         async function checkVer() {
             const text = document.getElementById("text-splashscreen");
             if (window.navigator.onLine === false) {
-                text.innerHTML = "You're offline. ArmCord can't function without a stable internet connection"
+                for (i = 0; i < 4; i++) {
+                    setTimeout(() => {
+                        text.innerHTML = `You're offline. Restarting in ${i} seconds`;
+                    }, 1);
+                }
+                window.Gluon.ipc.restart();
             } else {
-                const response = await fetch("https://armcord.xyz/latest.json");
+                const response = await fetch("https://cors.armcord.xyz/armcord.xyz/latest.json");
                 const data = await response.json();
                 if (data.version !== window.Gluon.ipc.store.config.version) {
                     var elem = document.createElement("img");
                     elem.classList.add("logo");
-                    elem.versionsrc = "https://armcord.xyz/update.webp";
+                    elem.src = "https://cors.armcord.xyz/armcord.xyz/update.webp";
                     document.body.prepend(elem);
                     document.getElementById("splashscreen-armcord").remove();
-                    text.innerHTML = "ArmCord needs to update"
+                    text.innerHTML = "ArmCord needs to update";
+                    var skipUpdate = document.createElement("button");
+                    skipUpdate.classList.add("button");
+                    skipUpdate.classList.add("shadow");
+                    skipUpdate.innerText = "Skip update";
+                    document.body.append(skipUpdate);
+                    skipUpdate.onclick = function () {
+                        window.Gluon.ipc.open("client");
+                    };
                 } else {
-                    window.Gluon.ipc.open("client")
-                }}}
-        checkVer()
+                    window.Gluon.ipc.open("client");
+                }
+            }
+        }
+        checkVer();
     </script>
 </html>
-

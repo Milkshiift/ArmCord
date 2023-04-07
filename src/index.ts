@@ -1,6 +1,6 @@
-import * as Config from "./shared/config.js"
+import * as Config from "./shared/config.js";
 console.log("Booting ArmCord...");
-Config.init()
+Config.init();
 // https://stackoverflow.com/a/69409483
 const argv = (key: string) => {
     // Return true if the key exists and a value is defined
@@ -13,27 +13,23 @@ const argv = (key: string) => {
 
     return value.replace(`--${key}=`, "");
 };
-switch(argv('start')) {
-	case "settings": {
-      //statements;
-      console.log("Boot: starting settings")
-      break;
-   }
-   case "setup": {
-      //statements;
-      console.log("Boot: starting setup")
-      break;
-   }
-   case "client": {
-      //statements;
-      console.log("Boot: starting client")
-       import("./client/index.js")
-      break;
-   }
-   default: {
-      //statements;
-      console.log("Boot: starting splash")
-      import("./splash/index.js")
-      break;
-   }
+switch (argv("start")) {
+    case "settings": {
+        console.log("Boot: starting settings");
+        break;
+    }
+    case "setup": {
+        console.log("Boot: starting setup");
+        break;
+    }
+    case "client": {
+        console.log("Boot: starting client");
+        import("./client/index.js");
+        break;
+    }
+    default: {
+        console.log("Boot: starting splash");
+        import("./splash/index.js");
+        break;
+    }
 }

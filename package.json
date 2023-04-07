@@ -4,7 +4,7 @@
     "description": "ArmCord is a custom client designed to enhance your Discord experience while keeping everything lightweight.",
     "main": "ts-out/main.js",
     "scripts": {
-    	"start": "pnpm run build && node ts-out/src/index.js",
+        "start": "pnpm run build && node ts-out/src/index.js",
         "startClient": "pnpm run build && node ts-out/src/index.js --start=client",
         "build": "tsc && copyfiles src/**/*.html src/**/**/*.css src/**/**/*.js ts-out/ && copyfiles package.json ts-out/ && copyfiles assets/**/** ts-out/",
         "format": "prettier --write src *.json",
@@ -28,7 +28,7 @@
         "typescript": "^4.9.3"
     },
     "dependencies": {
-        "@gluon-framework/gluon": "github:gluon-framework/gluon#cc79199a9cb06b91ba458d21e8854a61bd0029e2",
+        "@gluon-framework/gluon": "github:gluon-framework/gluon#6b2a7fb58e07af6a10a40fa92a8021da97ecdadd",
         "arrpc": "github:OpenAsar/arrpc#32b20feb2c994942a9de72b183ab0f4881c725c3",
         "cross-fetch": "^3.1.5",
         "extract-zip": "^2.0.1",

@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@gluon-framework/gluon': github:gluon-framework/gluon#cc79199a9cb06b91ba458d21e8854a61bd0029e2
+  '@gluon-framework/gluon': github:gluon-framework/gluon#6b2a7fb58e07af6a10a40fa92a8021da97ecdadd
   '@types/node': ^18.11.9
   '@types/ws': ^8.5.3
   arrpc: github:OpenAsar/arrpc#32b20feb2c994942a9de72b183ab0f4881c725c3
@@ -14,7 +14,7 @@ specifiers:
   ws: ^8.11.0
 
 dependencies:
-  '@gluon-framework/gluon': github.com/gluon-framework/gluon/cc79199a9cb06b91ba458d21e8854a61bd0029e2
+  '@gluon-framework/gluon': github.com/gluon-framework/gluon/6b2a7fb58e07af6a10a40fa92a8021da97ecdadd
   arrpc: github.com/OpenAsar/arrpc/32b20feb2c994942a9de72b183ab0f4881c725c3
   cross-fetch: 3.1.5
   extract-zip: 2.0.1
@@ -454,10 +454,10 @@ packages:
       - utf-8-validate
     dev: false
 
-  github.com/gluon-framework/gluon/cc79199a9cb06b91ba458d21e8854a61bd0029e2:
-    resolution: {tarball: https://codeload.github.com/gluon-framework/gluon/tar.gz/cc79199a9cb06b91ba458d21e8854a61bd0029e2}
+  github.com/gluon-framework/gluon/6b2a7fb58e07af6a10a40fa92a8021da97ecdadd:
+    resolution: {tarball: https://codeload.github.com/gluon-framework/gluon/tar.gz/6b2a7fb58e07af6a10a40fa92a8021da97ecdadd}
     name: '@gluon-framework/gluon'
-    version: 0.13.2
+    version: 0.13.5
     dependencies:
       ws: 8.11.0
     transitivePeerDependencies:
